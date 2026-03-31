@@ -13,13 +13,13 @@ This project uses the Bigfoot Sightings dataset to explore how reported sighting
 
 ## Visualization 1
 
-<iframe src="/pages/hw5/plot1.html" width="100%" height="500" frameborder="0"></iframe>
+<iframe src="/assets/hw5/plot1.html" width="100%" height="500" frameborder="0"></iframe>
 
 My first visualization is a line chart showing the number of Bigfoot sighting reports by year. I encoded year on the x-axis as a quantitative variable and the number of sightings on the y-axis as a quantitative variable. I used a line chart with points so the viewer can see both the overall trend and individual yearly values. This plot also includes interactivity through a dropdown menu for classification, which allows the user to compare how different classes of reports change over time. In the notebook, I converted the date column to datetime format, extracted the year, cleaned missing values, and grouped the data by year for plotting.
 
 ## Visualization 2
 
-<iframe src="/pages/hw5/plot2.html" width="100%" height="700" frameborder="0"></iframe>
+<iframe src="/assets/hw5/plot2.html" width="100%" height="700" frameborder="0"></iframe>
 
 My second visualization is a horizontal bar chart showing the top 20 states by number of Bigfoot sighting reports. I encoded state as a nominal variable on the y-axis and the number of sightings as a quantitative variable on the x-axis. I also used a sequential blue color scale to represent the counts, where darker shades indicate more sightings. This makes it easier to compare the states with the largest numbers of reports. In the notebook, I grouped the cleaned dataset by state, counted the number of reports, sorted the values in descending order, and kept only the top 20 states.
 
